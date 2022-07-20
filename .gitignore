@@ -1,0 +1,18 @@
+# Ignore everything
+.DS_Store
+uploads
+upgrade
+ewww
+wflogs
+ai1wm-backups
+mu-plugins
+plugins/*
+themes/*
+node_modules
+advanced-cache.php
+package-lock.json
+
+# But not these files...
+!.gitignore
+!themes/twentytwenty
+# etc...

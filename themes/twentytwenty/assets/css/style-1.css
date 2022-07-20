@@ -1,0 +1,100 @@
+ .t-create-p-form {
+     margin: 20px 30px;
+ }
+
+ .t-create-p-form__remove {
+     background-color: #2874AE;
+     color: #fff;
+     font-size: 16px;
+     position: absolute;
+     left: 15px;
+     top: 10px;
+     padding: 5px;
+     display: none;
+     cursor: pointer;
+ }
+
+ .t-create-p-form__remove img {
+     filter: brightness(0) invert(1);
+     width: 20px;
+     height: 20px;
+ }
+
+ .t-create-p-form__remove:hover {
+     background-color: #fff;
+     color: #2874AE;
+ }
+
+ .t-create-p-form__remove:hover img {
+     filter: brightness(0) invert(0);
+ }
+
+ .t-create-p-form__img {
+     width: 100%;
+     list-style: none;
+     margin-bottom: 20px;
+     position: relative;
+ }
+
+ .t-create-p-form__img.active label {
+     background-image: url('../images/loader.svg') !important;
+ }
+
+ .t-create-p-form__img.done .t-create-p-form__remove {
+     display: block;
+ }
+
+ .t-create-p-form__img.done label {
+     background-size: auto 100%;
+ }
+
+ .t-create-p-form__img label {
+     margin-bottom: 0;
+     width: 100%;
+     height: 201.49px;
+     background: #E2E3E4;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url("../images/arrow.png");
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .t-create-p-form__img input {
+     opacity: 0;
+     position: absolute;
+     z-index: -1;
+     left: 0;
+     top: 50%;
+     width: 100%;
+ }
+
+ .t-create-p-form {
+     max-width: 300px;
+ }
+
+ .t-create-p-form__type select {
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .t-create-p-form__submit input {
+     width: 100%;
+ }
+
+ .t-create-p-form__img-state {
+     text-align: center;
+     margin: 10px 20px;
+ }
+
+ .t-create-p-form__product-title input {
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .t-create-p-form__product-price input {
+     margin-bottom: 20px;
+     width: 100%;
+ }

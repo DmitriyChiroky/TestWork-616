@@ -1,0 +1,15 @@
+#twe_metabox table {
+    text-align: left;
+}
+#twe_metabox td {
+padding: 10px;
+}
+#twe_metabox th {
+padding: 10px;
+}
+#twe_metabox button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
